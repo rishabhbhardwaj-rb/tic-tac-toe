@@ -1,0 +1,84 @@
+body{
+    background-color:#11999E;
+    text-align: center;
+    margin: 0px;
+  }
+  .container{
+    display: grid;
+    width: 350px;
+    height: 350px;
+    grid-template-columns:repeat(3,auto);
+    
+    grid-gap: 6px;
+    background-color: #11999E;
+    /* padding: 5px; */
+    margin:  auto;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+  
+  }
+  .item{
+    height: 112.5px;
+    width: 112.5px;
+    background-color: #66BFBF;
+    font-size: 50px;
+    line-height: 100px;
+    color: #40514E;
+    
+    
+  }
+  p{
+    display: inline-block;
+  }
+  h1{
+      color:#40514E;
+      margin-top: 0px;
+      margin-bottom:10px;
+      text-shadow:1px 2px #F76B8A;
+      font-family:"Arvo", cursive;
+      font-size: 60px 
+  }
+  .btn{
+      display: inline-block;
+      width:350px;
+      background-color: #E4F9F5;
+      margin-top: 50px;
+      color:#11999E;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 30px;
+      cursor: pointer;
+  }
+  .game-status{
+      margin-top: 60px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color:#40514E;
+      font-size: 25px;
+      
+  }
+  .headSection{
+      padding: 50px 0px 20px ;
+      margin-top:0px;
+      background-color:#E4F9F5;
+      width: 100%; 
+  }
+  .game-result{
+      width: 350px;
+      height: 350px;
+      background-color:#11999E;
+      position: absolute;
+      left: 545px;
+      top:299px;
+      display: none;
+      text-align: center;
+      vertical-align: middle;
+  }
+  .result-display{
+      margin-top: 120px;
+      color: #F76B8A;
+      text-shadow: 1px 1px #EAF6F6;
+  }
+
+  /* .mark{
+      margin-top: 15px;
+  } */
